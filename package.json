@@ -1,0 +1,23 @@
+{
+  "name": "poseidon",
+  "version": "1.0.0",
+  "description": "this is project poseidon",
+  "author": "zeus",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "tsc"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.30",
+    "@types/node": "^14.0.1",
+    "@types/request": "^2.48.4",
+    "typescript": "^3.9.2"
+  },
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "request": "^2.88.2"
+  }
+}
